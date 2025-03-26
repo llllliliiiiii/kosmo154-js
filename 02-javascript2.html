@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("내부 스크립트 작성 방식");
+        // 표시하고 싶은 쌍따옴표 앞에 \를 붙이면 웹에서 확인 가능
+        console.log("\"이것은 '스크립트' 작성 예제입니다.\"");
+        console.log(`"이것"은 '스크립트' 작성 "예제" 입니다.`);
+        // 단일 주석문 - 한줄만 쓰는 주석문
+        /*
+            다중 주석문 - 다수개의 줄을 쓰는 주석문
+        */ 
+    </script>
+    <!-- 외부 스크립트 작성 방식
+             : 내부 스크립트 작성 방식보다 더 많이 사용됨-->
+    <script src="./02-javascript2.js"></script>
+    <!-- 인라인 자바스크립트 작성 방식 -->
+    <button onclick="alert('이것은 인라인 자바스크립트')">클릭</button>
+</body>
+</html>
